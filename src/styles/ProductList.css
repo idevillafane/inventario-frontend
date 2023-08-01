@@ -1,0 +1,71 @@
+.product-list {
+    padding: 10px;
+    display: grid;
+    gap: 10px; /* Espacio entre las columnas */
+    align-items: center; /* Centrar verticalmente los elementos en cada fila */
+  }
+  
+  .product-list-item {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr auto; /* Definir las columnas para los datos y el botón */
+    gap: 10px; /* Espacio entre las columnas */
+    align-items: center; /* Centrar verticalmente los elementos en cada fila */
+  }
+  
+  .product-info h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .product-info p {
+    margin: 0;
+  }
+  
+  .product-info span {
+    font-weight: bold;
+  }
+  
+  .product-info button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .product-info button:hover {
+    background-color: #0056b3;
+  }
+
+  .column-header {
+    display: block;
+    align-items: baseline;
+  }
+  
+  .column-header button {
+    margin-left: 14px; /* Ajusta el espaciado entre los nombres y los botones de filtro */
+  }
+
+
+  .filter-button {
+    box-shadow: 0px 10px 14px -7px #3e7327;
+    background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+    background-color:#77b55a;
+    border-radius:20px;
+    border:1px solid #4b8f29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:13px;
+    font-weight:bold;
+    padding:5px 5px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #5b8a3c;
+  }
+  

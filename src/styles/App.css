@@ -1,0 +1,69 @@
+/* App.css */
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #000;
+}
+
+.herramientas {
+  display: flex;
+  justify-content:space-around;
+  position: absolute;
+  bottom: 60px; /* Ajusta este valor para controlar la distancia desde abajo */
+  left: 0;
+  right: 0;
+}
+
+.herramietas button {
+  background-color: red;
+  margin: 5px;
+}
+
+
+/* Estilos para los botones */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
